@@ -1,46 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Final Project 3</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-    
-</head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  </head>
 
-<body>
-   <!-- ======= Header ======= -->
-   <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-      <h1 class="logo"><img src="img/Rectangle.png"></h1>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto" href="#">Home</a></li>
-          <li><a class="nav-link scrollto" href="#">About</a></li>
-          <li><a class="nav-link scrollto" href="#">Services</a></li>
-          <li><a class="nav-link scrollto " href="#">Portfolio</a></li>
-          <li class="scroll-to-section"><div class="main-red-button"><a href="#">Contact Now</a></div></li> 
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <!-- ======= Hero======= -->
-  <section id="hero" class="d-flex align-items-center">
-      <div class="row">
-        <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <h3>We Create Content that rank</h3>
-          <div class="d-flex">
-            <a href="#" class="btn-get-started scrollto">SEE OUR WORK</a>
+  <body>
+    <!-- ======= Header ======= -->
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm py-0">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="brand" href="#"><img class="d-flex" src="img/Combined Shape.png" alt="duck" /></a>
+          </div>
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link contact-us" href="#">Contact Us</a>
+            </div>
           </div>
         </div>
-        <div class="img">
-          <img src="img/Group.png" class="img-fluid" alt="">
+      </nav>
+    </header>
+    <!-- ======= Hero======= -->
+    <main>
+      <section id="hero" class="container mt-5">
+        <div class="row">
+          <div class="col mt-4 pt-5">
+            <h1>We Create Content that ranks</h1>
+            <a class="" href="">SEE OUR WORK</a>
+          </div>
+          <div class="col">
+            <img src="img/Group.png" class="img-fluid" alt="hero-img" />
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
-</body>
+      </section>
+
+      <!-- ======= About====== -->
+      <section id="about">
+        <div class="row justify-content-center">
+          <img src="img/Oval.png" class="position-absolute" alt="half-circle" />
+          <div class="col-8 text-center">
+            <h2>About Us</h2>
+            <span></span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= Services======= -->
+      <section id="services">
+        <section class="valuable-services text-center">
+          <h2>Our Valuable Services</h2>
+          <span></span>
+          <div class="row"></div>
+        </section>
+        <section class="work text-center">
+          <h2>Our Work</h2>
+          <span></span>
+          <div class="row"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
