@@ -115,6 +115,14 @@ nav a {
   background-color: #FDF8E3;
 }
 
+.slide .second{
+  background-color: #F0F3FA;
+}
+
+.slide .third{
+  background-color: #FEEFF0;
+}
+
 .slide .card a {
   background: var(--color-gradient-1);
   color: white !important;
