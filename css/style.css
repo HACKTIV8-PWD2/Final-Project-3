@@ -107,6 +107,23 @@ nav a {
   color: white;
 }
 
+.slide .card{
+  padding: 20px;
+}
+
+.slide .first{
+  background-color: #FDF8E3;
+}
+
+.slide .card a {
+  background: var(--color-gradient-1);
+  color: white !important;
+  text-decoration: none;
+  padding: 12px 40px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
 .valuable-services span {
   display: block;
   width: 100px;
