@@ -98,19 +98,18 @@ nav a {
 }
 
 /* ======= services ============================================================== */
-
-#services {
-  background-color: var(--color-1);
+#services{
+  margin-bottom: -260px;
 }
-
-#services h2 {
-  color: white;
-}
-
 .slide .card{
   padding: 20px;
+  border: none;
+  border-radius: 0;
 }
 
+.slide img{
+  height: 238px;
+}
 .slide .first{
   background-color: #FDF8E3;
 }
@@ -121,6 +120,15 @@ nav a {
 
 .slide .third{
   background-color: #FEEFF0;
+}
+
+.slide button .next {
+  background: var(--color-gradient-1);
+  border-radius: 100%;
+  border: rgb(255, 255, 255) solid 2px;
+  color: rgb(255, 255, 255) !important;
+  padding: 23px 23px 20px 30px;
+  font-size: 15px;
 }
 
 .slide .card a {
@@ -148,6 +156,11 @@ nav a {
   margin: auto;
 }
 
+/* ======= work ============================================================== */
+#work {
+  background-color: var(--color-1);
+  padding-top: 380px;
+}
 .work a {
   background: var(--color-gradient-1);
   color: white !important;
