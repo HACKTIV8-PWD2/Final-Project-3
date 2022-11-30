@@ -122,3 +122,21 @@ nav a {
   background: var(--color-gradient-1);
   margin: auto;
 }
+
+.work a {
+  background: var(--color-gradient-1);
+  color: white !important;
+  text-decoration: none;
+  padding: 1em 2em;
+  display: inline-block;
+}
+
+.work .custom {
+  letter-spacing: 3px;
+}
+
+/* ======= Contact Us ============================================================== */
+
+.contact-us .custom {
+  color: #e73587;
+}
