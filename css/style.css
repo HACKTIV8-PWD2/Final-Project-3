@@ -140,3 +140,7 @@ nav a {
 .contact-us .custom {
   color: #e73587;
 }
+
+.contact-us form .custom {
+  width: 100%;
+}
