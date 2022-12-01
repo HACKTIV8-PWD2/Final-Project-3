@@ -30,8 +30,30 @@ nav .brand {
   margin: 0;
 }
 
+nav .nav-brand {
+  display: none;
+  height: 72px;
+  width: 80px;
+  background: var(--color-gradient-1);
+  position: absolute;
+  top: 0;
+}
+
+nav .n-brand {
+  background-color: var(--color-1);
+  height: 65px;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  margin: 0;
+}
+
+nav .n-brand img {
+  margin: 9px auto;
+}
+
 nav .brand img {
-  margin: 27px auto;
+  margin: 30px auto;
 }
 
 nav .contact-us {
@@ -44,8 +66,17 @@ nav a {
   color: black !important;
 }
 
-/* ======= Hero ============================================================== */
+@media (max-width: 992px) {
+  nav .navbar-brand {
+    display: none;
+  }
 
+  nav .nav-brand {
+    display: block;
+  }
+}
+
+/* ======= Hero ============================================================== */
 #hero {
   margin-top: 100px !important;
 }
