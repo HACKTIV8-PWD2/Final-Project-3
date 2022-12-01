@@ -98,28 +98,28 @@ nav a {
 }
 
 /* ======= services ============================================================== */
-#services{
+#services {
   margin-bottom: -260px;
 }
-.slide .card{
+.slide .card {
   padding: 20px;
   border: none;
   border-radius: 0;
 }
 
-.slide img{
+.slide img {
   height: 238px;
 }
-.slide .first{
-  background-color: #FDF8E3;
+.slide .first {
+  background-color: #fdf8e3;
 }
 
-.slide .second{
-  background-color: #F0F3FA;
+.slide .second {
+  background-color: #f0f3fa;
 }
 
-.slide .third{
-  background-color: #FEEFF0;
+.slide .third {
+  background-color: #feeff0;
 }
 
 .slide button .next {
