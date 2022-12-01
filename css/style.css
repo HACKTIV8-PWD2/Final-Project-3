@@ -17,7 +17,7 @@ h2 {
 
 /* ======= Header ============================================================== */
 
-nav .navbar-brand {
+nav #navbar-brand {
   height: 126px;
   width: 100px;
   background: var(--color-gradient-1);
@@ -34,7 +34,11 @@ nav .brand {
   margin: 0;
 }
 
-nav .nav-brand {
+nav .brand img {
+  margin: 30px auto;
+}
+
+nav #nav-brand {
   display: none;
   height: 72px;
   width: 80px;
@@ -56,10 +60,6 @@ nav .n-brand img {
   margin: 9px auto;
 }
 
-nav .brand img {
-  margin: 30px auto;
-}
-
 nav .contact-us {
   color: white !important;
   background: var(--color-gradient-1);
@@ -70,13 +70,17 @@ nav a {
   color: black !important;
 }
 
-@media (max-width: 992px) {
-  nav .navbar-brand {
-    display: none;
+@media (min-width: 992px) {
+  nav #nav-brand {
+    height: 88px;
   }
 
-  nav .nav-brand {
-    display: block;
+  nav .n-brand {
+    height: 80px;
+  }
+
+  nav .n-brand img {
+    margin: 15px auto;
   }
 }
 
