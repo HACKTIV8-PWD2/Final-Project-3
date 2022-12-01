@@ -81,6 +81,7 @@ nav a {
 }
 
 /* ======= Hero ============================================================== */
+
 #hero {
   margin-top: 100px !important;
 }
@@ -150,9 +151,11 @@ nav a {
 }
 
 /* ======= services ============================================================== */
+
 #services {
   margin-bottom: -260px;
 }
+
 .slide .card {
   padding: 20px;
   border: none;
@@ -200,6 +203,8 @@ nav a {
   margin: auto;
 }
 
+/* ======= work ============================================================== */
+
 .work span {
   display: block;
   width: 100px;
@@ -208,7 +213,6 @@ nav a {
   margin: auto;
 }
 
-/* ======= work ============================================================== */
 #work {
   background-color: var(--color-1);
   padding-top: 380px;
